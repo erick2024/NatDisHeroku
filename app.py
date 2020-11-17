@@ -17,7 +17,7 @@ app = dash.Dash (__name__, external_stylesheets = external_stylesheets)
 server = app.server
 
 app.layout = html.Div ([
-        html.H6 ("Natural Disasters From 1900-2020"),
+        html.H6 ("Deaths Due to Natural Disasters From 1900-2020"),
         html.Div ([
         html.H6 ("Data Set"),
         dcc.Dropdown(
