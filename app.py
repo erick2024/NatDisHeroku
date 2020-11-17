@@ -1,9 +1,10 @@
+import plotly.express as px
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
-import plotly.express as px
 from dash.dependencies import Input, Output
 import pandas as pd
+import plotly.graph_objects as go
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/BWLwgP.css']
 
